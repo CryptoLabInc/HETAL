@@ -1,0 +1,31 @@
+HEaaN-SDK
+
+Copyright (C) 2021-2023 Crypto Lab Inc. All rights reserved.
+
+License Agreement
+
+BY DOWNLOADING, INSTALLING, COPYING, ACCESSING, OR OTHERWISE USING THE PROGRAM, THE LICENSEE AGREES TO THE TERMS OF THIS AGREEMENT. IF YOU ACCEPT THESE TERMS ON BEHALF OF THE LICENSEE, YOU REPRESENT AND WARRANT THAT YOU HAVE FULL AUTHORITY TO BIND THE LICENSEE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, COPY, ACCESS, CLICK ON AN ″ACCEPT″ BUTTON, OR USE THE PROGRAM; AND DESTROY ALL COPIES OF THE PROGRAM.
+
+Definitions a. “CryptoLab” - Crypto Lab Inc., located at 404, 27, 1, Gwanak-ro, Gwanak-gu, Seoul, Korea, 08826 b. “HEaaN-SDK” – CryptoLab’s library providing functionalities of statistics and machine learning. c. “Program” or “Software” – CryptoLab’s library providing functionalities of statistics and machine learning. d. Licensor – CryptoLab. e. Licensee – Anyone who downloads, installs, copies, or uses the Program. The Licensee should agree to this Agreement.
+
+License grant The Licensor now grants the Licensee a free of charge, worldwide, royalty-free, non-sublicensable, non-exclusive, revocable license to use the Program for non-commercial use and internal purpose only, provided that:
+
+a. the Licensee has lawfully obtained the Program and complies with the terms of this Agreement;
+
+b. when Licensee receives an update, fix, or patch to the Program, Licensee accepts any additional or different terms that apply to such update, fix, or patch as provided. If an update replaces the Program, Licensee agrees to discontinue use of the replaced Program promptly; and
+
+c. Licensee does not 1) modify, adapt, translate, or create derivative works based upon the Software; 2) reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Software; 3) copy, sell, distribute the Program; 4) sublicesnse the Program;
+This license applies to each copy of the Program that the Licensee makes.
+
+Termination Licensor may terminate this Agreement for any reason with one (1) month notice and at any time if Licensee is in breach of any of terms of this Agreement. Upon termination, Licensee will immediately destroy all copies of the Program.
+
+No Obligation Licensor may make changes to the Program, at any time without notice. Licensor is not obligated to support, update, provide training for, or develop any further version of the Software or to grant any license thereto.
+
+Disclaimer of Warranties and Limitation of Liability a. Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Program as-is and as-available and makes no representations or warranties of any kind concerning the Program, whether express, implied, statutory, or other;
+
+b. To the extent possible, in no event will the Licensor be liable to the Licensee on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Agreement or use of the Program;
+
+c. The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
+
+APPLICABLE LAW This Agreement and any dispute arising out of or relating to it will be governed by the laws of the Republic of Korea, without regard to conflict of laws principles. The Seoul Central District Court in Seoul, Republic of Korea will have exclusive jurisdiction over any dispute arising out of or relating to this Agreement. The Parties consent to personal jurisdiction and venue in this court. A Party that obtains a judgment against the other Party in the courts identified in this section may enforce that judgment in any court that has jurisdiction over the Parties.
+THE LICENSEE SHALL NOT USE THE PROGRAM FOR COMMERCIAL PURPOSES, AND ANY SUCH USE HEREUNDER THIS LICENSE IS EXPLICITLY PROHIBITED. IF THE LICENSEE WISHES TO USE THE PROGRAM FOR ANY COMMERCIAL PURPOSES, THE LICENSEE WILL NEED TO EXECUTE A SEPARATE LICENSING AGREEMENT WITH THE LICENSOR. REQUESTS FOR THE USE OF PROGRAM FOR COMMERCIAL PURPOSES, PLEASE CONTACT: 404, 27, 1, GWANAK-RO, GWANAK-GU, SEOUL, KOREA, 08826, cryptolab@cryptolab.co.kr

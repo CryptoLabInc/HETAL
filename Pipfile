@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+heaan-sdk = {path = "./heaan_sdk-0.2.0-cp38-cp38-linux_x86_64.whl"}
+heaan = {path = "./heaan-0.1.0+cpu-cp38-cp38-linux_x86_64.whl"}
+
+[requires]
+python_version = "3.8"
