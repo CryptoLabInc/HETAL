@@ -10,7 +10,7 @@ Official repository for **HETAL: Efficient Privacy-preserving Transfer Learning 
 
 ** Corresponding author
 
-You can read the paper here: [ADD LINK HERE]
+You can read the paper here: [OpenReview Link](https://openreview.net/forum?id=jJXuL3hQvt)
 
 **This repository uses CPU version of HEaaN library. To use GPU acceleration, please contact stat@cryptolab.co.kr.**
 
