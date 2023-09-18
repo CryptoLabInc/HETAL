@@ -22,6 +22,7 @@ def run(
     nesterov: bool = True,
     early_stopping: bool = True,
     patience: int = 3,
+    with_gpu: bool = False,
 ):
     msg = f"dataset: {data}\n"
     msg += f"encrypt train: {encrypted_train}\n"
@@ -31,6 +32,7 @@ def run(
     msg += f"nesterov: {nesterov}\n"
     msg += f"use early stopping: {early_stopping}\n"
     msg += f"patience: {patience}\n"
+    msg += f"use gpu: {with_gpu}\n"
     print(msg)
 
     # fix initial seed
@@ -46,7 +48,7 @@ def run(
         load_keys="all",
         generate_keys=generate_keys,
         make_bootstrappable=True,
-        use_gpu=False,
+        use_gpu=with_gpu,
     )
 
     # load data
@@ -90,6 +92,8 @@ def run(
     if encrypted_train:
         print("Encrypt model")
         model.encrypt()
+    if with_gpu:
+        model.to_device()
 
     print("Train a model with HETAL")
     model.fit_val_loss(
@@ -102,6 +106,8 @@ def run(
         early_stopping=early_stopping,
         patience=patience,
     )
+    if with_gpu:
+        model.to_host()
     if model.encrypted:
         model.decrypt()
     et = timeit.default_timer()
@@ -150,6 +156,8 @@ if __name__ == "__main__":
     parser.add_argument("--sgd", type=str, choices=["vanilla", "nesterov"], default="nesterov")
     parser.add_argument("--early_stopping", action="store_true")
     parser.add_argument("--patience", type=int, default=3)
+    parser.add_argument("--with_gpu", action="store_true")
+
     args = parser.parse_args()
 
     # If hyperparameters are not provided, use default values.
@@ -173,4 +181,5 @@ if __name__ == "__main__":
         nesterov=nesterov,
         early_stopping=args.early_stopping,
         patience=args.patience,
+        with_gpu=args.with_gpu,
     )
