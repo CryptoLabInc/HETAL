@@ -21,7 +21,8 @@ You can read the paper here: [OpenReview Link](https://openreview.net/forum?id=j
 
 * OS: Linux
 * Python: 3.8
-
+* Minimum Memory: 16GB
+* Recommended Memory: 32GB
 
 First install [pipenv](https://pipenv.pypa.io/en/latest/). Then run the following shell commands.
 All the required packages including `heaan` and `heaan_sdk` will be installed using existing `whl` files (`heaan_sdk-0.2.0-cp38-cp38-linux_x86_64.whl` and `heaan-0.1.0+cpu-cp38-cp38-linux_x86_64.whl`).
