@@ -53,7 +53,6 @@ Use the following Bibtex entry for citation.
 This is available for the non-commercial purpose only. See `LICENSE` for details.
 
 
-## HEaaN.SDK
+## AutoFHE
 
-HETAL will be integrated to CryptoLab's **HEaaN.SDK** (HEaaN.stat and HEaaN.ml), the HE-based data analysis library. Current version and its documentation is avaiable in [heaan.it](https://heaan.it/).
-
+HETAL is now integrated into CryptoLab's new product, **AutoFHE**. It is available in [autofhe.com](https://autofhe.com/).

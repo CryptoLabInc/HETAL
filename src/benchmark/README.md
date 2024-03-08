@@ -17,6 +17,17 @@ Here are descriptions of the arguments:
 | `--algorithm ALGORITHM`    | Algorithm name. `hetal` (DiagABT and DiagATB), `crockett` (ColMajor, Row Major), `privgd`. |
 | `--num_iter NUM_ITER`   | Number of iterations for measurements. Defaults to `10`. |
 
+**Update (March 7, 2024)**
+- There was a bug in the internal code that counts the number of CMult & Mult used. This problem is fixed in PR #5, and the numbers will be different from the original numbers in Table 7 of the published version of the paper (which are wrong).
+The corrected table can be found in the pdf file `hetal_matmul_table_fixed.pdf`. Table 6 in the same pdf file shows the *exact* number of each operation in terms of matrix sizes and $s_0, s_1$.
+- Also, the experiments are done with the highest level of the CKKS parameter we used in the paper, which is 12 for both $A$ and $B$.
+However, when the level of $A$ is smaller than $B$, then the modified algorithm with $\mathsf{PRotUp}$ increases the number of rotations and constant multiplications (but not multiplications), and such numbers can be also found in the new Table 7 in the pdf file. Note that we save a depth by 1 in this case.
+If you want to reproduce these numbers, add the following line before L287 of `matmul.py`:
+    ```python
+    mat1.level_down(11)
+    ```
+
+- We thank Miran Kim for pointing out these errors.
 
 ## Softmax approximation
 
