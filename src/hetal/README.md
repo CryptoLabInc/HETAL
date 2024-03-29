@@ -12,7 +12,7 @@ Following 5 datasets will be used for experiments:
 * [SNIPS](https://arxiv.org/pdf/1805.10190v3.pdf)
 
 *Except for Face Mask Detection* dataset, all the datasets will be downloaded and ViT-features will be extracted automatically under the following scripts.
-The exctracted features will be saved as numpy arrays (`*.npy` files) under the `data/{DATASET_NAME}` directory.
+The extracted features will be saved as numpy arrays (`*.npy` files) under the `data/{DATASET_NAME}` directory.
 
 ### Image datasets
 
